@@ -353,9 +353,10 @@ static float3 shade(VOut in, constant FrameUniforms &f, depth2d<float> shadowMap
             // grass: mowing stripes, blade grain, worn dirt at the baselines
             float stripes = step(0.5, fract(in.world.x * 0.35));
             float blades = mix(0.5, vnoise(in.world.xz * 120.0), fine) * 0.5 + vnoise(in.world.xz * 30.0) * 0.5;
-            float wear = smoothstep(9.5, 11.8, fabs(in.world.z)) * smoothstep(0.35, 0.8, vnoise(in.world.xz * 1.3));
+            float az = fabs(in.world.z);
+            float wear = smoothstep(10.6, 12.2, az) * (1.0 - smoothstep(12.6, 13.6, az)) * smoothstep(0.5, 0.85, vnoise(in.world.xz * 2.4)) * (1.0 - smoothstep(4.5, 7.0, fabs(in.world.x)));
             albedo *= 0.78 + 0.34 * blades + 0.12 * stripes;
-            albedo = mix(albedo, float3(0.38, 0.30, 0.17), wear * 0.75);
+            albedo = mix(albedo, float3(0.26, 0.22, 0.12), wear * 0.5);
             float2 q = in.world.xz * 60.0;
             N = normalize(N + float3(vnoise(q) - 0.5, 0, vnoise(q + 9.1) - 0.5) * 0.3 * fine);
             rough = 0.95;
