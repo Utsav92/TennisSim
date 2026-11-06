@@ -1,0 +1,199 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 60;
+objects = {
+/* Begin PBXBuildFile section */
+EFBE013C94E7ABE4ED870B46 = {isa = PBXBuildFile; fileRef = 0399D89B179A436B4688EB0A;};
+1B56920DC82A7CA51CB1A084 = {isa = PBXBuildFile; fileRef = 37D4DE44F12907BFAAF8BAEC;};
+C149465583591E663ECDCE8E = {isa = PBXBuildFile; fileRef = 80D16F8DD61E75572610E519;};
+DDFE1AB4B968024F776F6A98 = {isa = PBXBuildFile; fileRef = 8FB448EF3D002AF2FE1AEA75;};
+78EFF45B254D6460EB447E99 = {isa = PBXBuildFile; fileRef = 02036292A17DC8EC8E096926;};
+C220580327BA0B3F2AB36412 = {isa = PBXBuildFile; fileRef = F0FF6F5F6A4EDC111B515EF2;};
+7FE0A0616AE32CBAAC8581B7 = {isa = PBXBuildFile; fileRef = 1E813F7D6C237EC1FAAA1A22;};
+39BAA5B950B08EAE4FC8798D = {isa = PBXBuildFile; fileRef = ABC8BA7F421EDE982012C4EB;};
+F3D89ECEC36DE7BB78D7CD3E = {isa = PBXBuildFile; fileRef = FDE20F9A56F033DA3C885CF1;};
+157AD7D3C399031E25F48859 = {isa = PBXBuildFile; fileRef = 56530955F3BC7FE8BA8CEE0E;};
+02DE91A1BCC5C77375F041F0 = {isa = PBXBuildFile; fileRef = 9DE8DE0AD018DD0AC8ADAB8C;};
+4DED3C821482F56DCC090304 = {isa = PBXBuildFile; fileRef = EC6C628B16A1FD5FB0110460;};
+9B06EBC562F1F3160739EE46 = {isa = PBXBuildFile; fileRef = 73DA8A178063703B0A2C0B32;};
+9BAF6FB53140E742669AB246 = {isa = PBXBuildFile; fileRef = 45900224BC1E94F8CE4D9023;};
+3D27C34E8CC351DEE88562DA = {isa = PBXBuildFile; fileRef = 902CC83D5AA1B98409456090;};
+95E5E9FBAAEC1279207CF278 = {isa = PBXBuildFile; fileRef = 5613A4B5DB3A74E5FE54CDBD;};
+5EAA212BC2C87FD80D1A85F9 = {isa = PBXBuildFile; fileRef = 81FB2C68FF35BCAA6174D393;};
+16E35519A81DB6FA7A4EA5EB = {isa = PBXBuildFile; fileRef = F98EB52E903356267C9929D1;};
+5BFD133D03C3CFC3C403994D = {isa = PBXBuildFile; fileRef = 6BD7D366ACFDC0254D852F4B;};
+FD890189974A3A073949B7F2 = {isa = PBXBuildFile; fileRef = 1D8B8E6717B9E51AF71EB9CD;};
+EAB924B3A5558EE59C2D5B97 = {isa = PBXBuildFile; fileRef = BA2E9E89CA07B6D0A4151AF0;};
+3ACB5CDA41B9B5022C91D46D = {isa = PBXBuildFile; fileRef = 3FC59AF66FE3056574DAA5B9;};
+C3A79A70A58E0CF99720A656 = {isa = PBXBuildFile; fileRef = D198D61C3231D2FE9656F83F;};
+3B0564A6E18C135ED56CDD83 = {isa = PBXBuildFile; fileRef = FCBF605381ACFEE16419D164;};
+EF44C5FAC695EAF076B80FB3 = {isa = PBXBuildFile; fileRef = D16665133F6046D416E4EE70;};
+9B0DFF95615BE522AA64C8AD = {isa = PBXBuildFile; fileRef = B50889ECF559F72F5115CEAE;};
+2591E97452A206415C13F5DD = {isa = PBXBuildFile; fileRef = 2554C717B7FD32F68404041F;};
+CACEBA5F8248FBE72658500C = {isa = PBXBuildFile; fileRef = A04A6049B1ED4A8DF9654044;};
+48FF7BFF23D60E5CCDE7F2A0 = {isa = PBXBuildFile; fileRef = 63281DD0E2D70CA933263380;};
+4BFD2BC2BC5AA048B78C63E4 = {isa = PBXBuildFile; fileRef = 2019838087D57C8238C256E3;};
+32C3605651EA3023F861ADEA = {isa = PBXBuildFile; fileRef = 689916D394C7F31C3EF5DB63;};
+3911DA5AA208872974410299 = {isa = PBXBuildFile; fileRef = 6676B58EAE241A7CAF078881;};
+7B49A23CDCF2A68D5D3EBA2B = {isa = PBXBuildFile; fileRef = 95419972A68D7BD980A81B50;};
+2826ABDA65FBD3F5048A713F = {isa = PBXBuildFile; fileRef = E9AA268BE0EB49CDCE2EF94C;};
+9885029A77C754249938FC2A = {isa = PBXBuildFile; fileRef = 5429D317056838326A8195C2;};
+C4D4FEB183EB92600F814C7B = {isa = PBXBuildFile; fileRef = F60F6D748FADDCE7294CB14F;};
+05BC262C767B26F8653FE5E9 = {isa = PBXBuildFile; fileRef = AE4B3EC0451259ABDDA3B76A;};
+E99B7132EAE8FBAA26707E06 = {isa = PBXBuildFile; fileRef = B1551AB4E0EC2D835452C474;};
+7037779C115F134FA803D4ED = {isa = PBXBuildFile; fileRef = 5ABB82E491428E80150FC069;};
+41EC8419D9576234C988C321 = {isa = PBXBuildFile; fileRef = 67D367E3F63B2D1439D7DC04;};
+C12AD54EFBDF4FEFDBCBC103 = {isa = PBXBuildFile; fileRef = 3821232BC30534322B3B3032;};
+B528D9FF2B3AA3F38020F270 = {isa = PBXBuildFile; fileRef = FAD66BD284B752A531A8CACC;};
+0070108C1F66AA5334B79C2B = {isa = PBXBuildFile; fileRef = 5D84596C8CBDC29F3033A127;};
+A434BBF2651A1A9A54454655 = {isa = PBXBuildFile; fileRef = 2B4139F26572E0DCCD2ED222;};
+BD3B9C7914F47319B386118A = {isa = PBXBuildFile; fileRef = FC75DC79C13CD1CCBDB1F940;};
+A41FA1C6D9F6E603F2DE9C45 = {isa = PBXBuildFile; fileRef = 6DE34A0BD949CD7C5BE74DCD;};
+65C386D76C7C7380E634E157 = {isa = PBXBuildFile; fileRef = 60A5C2A560F927CEE2F7859F;};
+5F177C6A081384361A5DA14F = {isa = PBXBuildFile; fileRef = 0399D89B179A436B4688EB0A;};
+1E86E0E7727DE93D295DEA23 = {isa = PBXBuildFile; fileRef = 37D4DE44F12907BFAAF8BAEC;};
+E5E24E98D1705B172EA62847 = {isa = PBXBuildFile; fileRef = 80D16F8DD61E75572610E519;};
+116FF3F4132A61E3B9BB63EF = {isa = PBXBuildFile; fileRef = 8FB448EF3D002AF2FE1AEA75;};
+655763D9917F6DF151817A8C = {isa = PBXBuildFile; fileRef = 02036292A17DC8EC8E096926;};
+74832E343A527ED4AF10005C = {isa = PBXBuildFile; fileRef = F0FF6F5F6A4EDC111B515EF2;};
+EBF7441962A07111479921BF = {isa = PBXBuildFile; fileRef = 1E813F7D6C237EC1FAAA1A22;};
+F07FCCFB3432935AED237F84 = {isa = PBXBuildFile; fileRef = ABC8BA7F421EDE982012C4EB;};
+5E3B61757F400324DCBDB97A = {isa = PBXBuildFile; fileRef = FDE20F9A56F033DA3C885CF1;};
+DFFBCFFB9B368A945B5EB956 = {isa = PBXBuildFile; fileRef = 56530955F3BC7FE8BA8CEE0E;};
+17BE1D3015BBD14B503A1DC8 = {isa = PBXBuildFile; fileRef = 9DE8DE0AD018DD0AC8ADAB8C;};
+EA4EC7175D30B53AED7C1FDE = {isa = PBXBuildFile; fileRef = EC6C628B16A1FD5FB0110460;};
+4FC1BBFB0A33B73B0DCCD1EA = {isa = PBXBuildFile; fileRef = 73DA8A178063703B0A2C0B32;};
+2D9D317276FC22EC726B053E = {isa = PBXBuildFile; fileRef = 45900224BC1E94F8CE4D9023;};
+08EA897516F1447B15681B7A = {isa = PBXBuildFile; fileRef = 902CC83D5AA1B98409456090;};
+EB256EE09364687E2FAAECA2 = {isa = PBXBuildFile; fileRef = 5613A4B5DB3A74E5FE54CDBD;};
+BCAB8C00C862E549E0CC9A1E = {isa = PBXBuildFile; fileRef = 81FB2C68FF35BCAA6174D393;};
+FDAB543708B5B52F1D788E57 = {isa = PBXBuildFile; fileRef = F98EB52E903356267C9929D1;};
+68D0F27CA1E67F5264FC9C66 = {isa = PBXBuildFile; fileRef = 6BD7D366ACFDC0254D852F4B;};
+FF0C9E96D6B0509C93BBA7EC = {isa = PBXBuildFile; fileRef = 1D8B8E6717B9E51AF71EB9CD;};
+9E19BFE9404261F039476791 = {isa = PBXBuildFile; fileRef = BA2E9E89CA07B6D0A4151AF0;};
+0384647C96E6CB8CE748110E = {isa = PBXBuildFile; fileRef = 3FC59AF66FE3056574DAA5B9;};
+456C6AD076B50E0A9AA7E341 = {isa = PBXBuildFile; fileRef = EC5118DA07C93D31D24E34D7;};
+FFB9B20851484D08DF69CBF7 = {isa = PBXBuildFile; fileRef = 1B4585099F7EFE414A824BD2;};
+15A4A4B0A2D0376C110AB657 = {isa = PBXBuildFile; fileRef = 2554C717B7FD32F68404041F;};
+89A86E0B25EB1C341FC77431 = {isa = PBXBuildFile; fileRef = A04A6049B1ED4A8DF9654044;};
+80516B625105E1000E00CB29 = {isa = PBXBuildFile; fileRef = 63281DD0E2D70CA933263380;};
+6868B9D38841AFCA7EDBA432 = {isa = PBXBuildFile; fileRef = 2019838087D57C8238C256E3;};
+16AB8572DEE5968DF02A59EE = {isa = PBXBuildFile; fileRef = 689916D394C7F31C3EF5DB63;};
+D60B10378493384AD17F6BDF = {isa = PBXBuildFile; fileRef = 6676B58EAE241A7CAF078881;};
+6EDA814C3D5B9831A4AFC79D = {isa = PBXBuildFile; fileRef = 95419972A68D7BD980A81B50;};
+8590BCB97B90A3B471AA8C19 = {isa = PBXBuildFile; fileRef = E9AA268BE0EB49CDCE2EF94C;};
+2807B5EDE3E92F440D093157 = {isa = PBXBuildFile; fileRef = 5429D317056838326A8195C2;};
+00AA5AA4866F585F456EF677 = {isa = PBXBuildFile; fileRef = F60F6D748FADDCE7294CB14F;};
+4CF7C7AC4CA2ED69468F59CD = {isa = PBXBuildFile; fileRef = AE4B3EC0451259ABDDA3B76A;};
+64928DE17B687D640F06163F = {isa = PBXBuildFile; fileRef = B1551AB4E0EC2D835452C474;};
+C2D9631B71692140E32E1239 = {isa = PBXBuildFile; fileRef = 5ABB82E491428E80150FC069;};
+BC178B743307CA5C362ED088 = {isa = PBXBuildFile; fileRef = 67D367E3F63B2D1439D7DC04;};
+4E8DF5B7CBA3AE5838373F44 = {isa = PBXBuildFile; fileRef = 3821232BC30534322B3B3032;};
+C39FC6E9C94FDEBC6B47CD4E = {isa = PBXBuildFile; fileRef = B546EB58E0A4C3C630995945;};
+015C1CB29E4BB0892EDC7226 = {isa = PBXBuildFile; fileRef = 30731AE912DB16E85E67369B;};
+8AA707442FBC04AA6A7CAE0D = {isa = PBXBuildFile; fileRef = 8D7FD9E0D43605AE509C26A6;};
+1C1D4578578153E0DDDCCCB3 = {isa = PBXBuildFile; fileRef = 80CBC7C6E584FB94F5183763;};
+E41874DEEBF0634BBA7B4DC7 = {isa = PBXBuildFile; fileRef = EB874324FAB231D2B1955BDE;};
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+0399D89B179A436B4688EB0A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/AIController.swift"; sourceTree = "<group>";};
+37D4DE44F12907BFAAF8BAEC = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/Animation.swift"; sourceTree = "<group>";};
+80D16F8DD61E75572610E519 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/BallPhysics.swift"; sourceTree = "<group>";};
+8FB448EF3D002AF2FE1AEA75 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/GameState.swift"; sourceTree = "<group>";};
+02036292A17DC8EC8E096926 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game/Player.swift"; sourceTree = "<group>";};
+F0FF6F5F6A4EDC111B515EF2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Input/InputState.swift"; sourceTree = "<group>";};
+1E813F7D6C237EC1FAAA1A22 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/AdTexture.swift"; sourceTree = "<group>";};
+ABC8BA7F421EDE982012C4EB = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/Camera.swift"; sourceTree = "<group>";};
+FDE20F9A56F033DA3C885CF1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/ClassicHDR.swift"; sourceTree = "<group>";};
+56530955F3BC7FE8BA8CEE0E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/MathUtils.swift"; sourceTree = "<group>";};
+9DE8DE0AD018DD0AC8ADAB8C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/Mesh.swift"; sourceTree = "<group>";};
+EC6C628B16A1FD5FB0110460 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/Metal4Backend.swift"; sourceTree = "<group>";};
+73DA8A178063703B0A2C0B32 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/OBJLoader.swift"; sourceTree = "<group>";};
+45900224BC1E94F8CE4D9023 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/Renderer.swift"; sourceTree = "<group>";};
+902CC83D5AA1B98409456090 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/SceneBuilder.swift"; sourceTree = "<group>";};
+5613A4B5DB3A74E5FE54CDBD = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/ScoreboardTexture.swift"; sourceTree = "<group>";};
+81FB2C68FF35BCAA6174D393 = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = "Rendering/Shaders.metal"; sourceTree = "<group>";};
+F98EB52E903356267C9929D1 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/SkinnedModel.swift"; sourceTree = "<group>";};
+6BD7D366ACFDC0254D852F4B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rendering/Stadium.swift"; sourceTree = "<group>";};
+1D8B8E6717B9E51AF71EB9CD = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Sim/BallSim.cpp"; sourceTree = "<group>";};
+BA2E9E89CA07B6D0A4151AF0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Audio/GameAudio.swift"; sourceTree = "<group>";};
+3FC59AF66FE3056574DAA5B9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/SettingsStore.swift"; sourceTree = "<group>";};
+D198D61C3231D2FE9656F83F = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/main.swift"; sourceTree = "<group>";};
+FCBF605381ACFEE16419D164 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/AppDelegate.swift"; sourceTree = "<group>";};
+D16665133F6046D416E4EE70 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/SelfTest.swift"; sourceTree = "<group>";};
+B50889ECF559F72F5115CEAE = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App/SnapshotTool.swift"; sourceTree = "<group>";};
+EC5118DA07C93D31D24E34D7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS/IOSApp.swift"; sourceTree = "<group>";};
+1B4585099F7EFE414A824BD2 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS/MenuUI.swift"; sourceTree = "<group>";};
+12A6F70D071094A188E842AA = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sim/BallSim.h"; sourceTree = "<group>";};
+0270284D461E650CC8FA4766 = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TennisSim-Bridging-Header.h"; sourceTree = "<group>";};
+2554C717B7FD32F68404041F = {isa = PBXFileReference; lastKnownFileType = file; path = "Assets/Models/athlete.hum"; sourceTree = "<group>";};
+A04A6049B1ED4A8DF9654044 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/calf.obj"; sourceTree = "<group>";};
+63281DD0E2D70CA933263380 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/foreArm.obj"; sourceTree = "<group>";};
+2019838087D57C8238C256E3 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/hair.obj"; sourceTree = "<group>";};
+689916D394C7F31C3EF5DB63 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/hand.obj"; sourceTree = "<group>";};
+6676B58EAE241A7CAF078881 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/head.obj"; sourceTree = "<group>";};
+95419972A68D7BD980A81B50 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/racketFrame.obj"; sourceTree = "<group>";};
+E9AA268BE0EB49CDCE2EF94C = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/racketHandle.obj"; sourceTree = "<group>";};
+5429D317056838326A8195C2 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/racketStrings.obj"; sourceTree = "<group>";};
+F60F6D748FADDCE7294CB14F = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/shoe.obj"; sourceTree = "<group>";};
+AE4B3EC0451259ABDDA3B76A = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/shorts.obj"; sourceTree = "<group>";};
+B1551AB4E0EC2D835452C474 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/spectator.obj"; sourceTree = "<group>";};
+5ABB82E491428E80150FC069 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/thigh.obj"; sourceTree = "<group>";};
+67D367E3F63B2D1439D7DC04 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/torso.obj"; sourceTree = "<group>";};
+3821232BC30534322B3B3032 = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets/Models/upperArm.obj"; sourceTree = "<group>";};
+FAD66BD284B752A531A8CACC = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT;};
+5D84596C8CBDC29F3033A127 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT;};
+2B4139F26572E0DCCD2ED222 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalFX.framework; path = System/Library/Frameworks/MetalFX.framework; sourceTree = SDKROOT;};
+FC75DC79C13CD1CCBDB1F940 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT;};
+6DE34A0BD949CD7C5BE74DCD = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT;};
+60A5C2A560F927CEE2F7859F = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT;};
+511C779136F4DD61262A2BB2 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisSim.app; sourceTree = BUILT_PRODUCTS_DIR;};
+B546EB58E0A4C3C630995945 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT;};
+30731AE912DB16E85E67369B = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT;};
+8D7FD9E0D43605AE509C26A6 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT;};
+80CBC7C6E584FB94F5183763 = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT;};
+EB874324FAB231D2B1955BDE = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT;};
+097D4422326D7E803F13D83C = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisSim-iOS.app; sourceTree = BUILT_PRODUCTS_DIR;};
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+EED5A9E2098FDF7412ABF8EA = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (B528D9FF2B3AA3F38020F270,0070108C1F66AA5334B79C2B,A434BBF2651A1A9A54454655,BD3B9C7914F47319B386118A,A41FA1C6D9F6E603F2DE9C45,65C386D76C7C7380E634E157); runOnlyForDeploymentPostprocessing = 0;};
+008519A4CB2175CD4912AF28 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (C39FC6E9C94FDEBC6B47CD4E,015C1CB29E4BB0892EDC7226,8AA707442FBC04AA6A7CAE0D,1C1D4578578153E0DDDCCCB3,E41874DEEBF0634BBA7B4DC7); runOnlyForDeploymentPostprocessing = 0;};
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+FAD58DE7366495DB4650CFEF = {isa = PBXGroup; children = (AAE3C71672121C2397F9F81F, D6E4A9B6646C62FC48BAA6DD); sourceTree = "<group>";};
+D6E4A9B6646C62FC48BAA6DD = {isa = PBXGroup; children = (511C779136F4DD61262A2BB2,097D4422326D7E803F13D83C); name = Products; sourceTree = "<group>";};
+AAE3C71672121C2397F9F81F = {isa = PBXGroup; children = (0399D89B179A436B4688EB0A,37D4DE44F12907BFAAF8BAEC,80D16F8DD61E75572610E519,8FB448EF3D002AF2FE1AEA75,02036292A17DC8EC8E096926,F0FF6F5F6A4EDC111B515EF2,1E813F7D6C237EC1FAAA1A22,ABC8BA7F421EDE982012C4EB,FDE20F9A56F033DA3C885CF1,56530955F3BC7FE8BA8CEE0E,9DE8DE0AD018DD0AC8ADAB8C,EC6C628B16A1FD5FB0110460,73DA8A178063703B0A2C0B32,45900224BC1E94F8CE4D9023,902CC83D5AA1B98409456090,5613A4B5DB3A74E5FE54CDBD,81FB2C68FF35BCAA6174D393,F98EB52E903356267C9929D1,6BD7D366ACFDC0254D852F4B,1D8B8E6717B9E51AF71EB9CD,BA2E9E89CA07B6D0A4151AF0,3FC59AF66FE3056574DAA5B9,D198D61C3231D2FE9656F83F,FCBF605381ACFEE16419D164,D16665133F6046D416E4EE70,B50889ECF559F72F5115CEAE,EC5118DA07C93D31D24E34D7,1B4585099F7EFE414A824BD2,12A6F70D071094A188E842AA,0270284D461E650CC8FA4766,2554C717B7FD32F68404041F,A04A6049B1ED4A8DF9654044,63281DD0E2D70CA933263380,2019838087D57C8238C256E3,689916D394C7F31C3EF5DB63,6676B58EAE241A7CAF078881,95419972A68D7BD980A81B50,E9AA268BE0EB49CDCE2EF94C,5429D317056838326A8195C2,F60F6D748FADDCE7294CB14F,AE4B3EC0451259ABDDA3B76A,B1551AB4E0EC2D835452C474,5ABB82E491428E80150FC069,67D367E3F63B2D1439D7DC04,3821232BC30534322B3B3032); path = TennisSim; sourceTree = "<group>";};
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+95A282629E77CCA13A0C5C36 = {isa = PBXNativeTarget; buildConfigurationList = B6E8AA2D87F5966CDBAED90F; buildPhases = (0E1B44785AD9ABF84773B747, EED5A9E2098FDF7412ABF8EA, 2AFE9F2161BF4C3818C4B6A0); buildRules = (); dependencies = (); name = "TennisSim"; productName = "TennisSim"; productReference = 511C779136F4DD61262A2BB2; productType = "com.apple.product-type.application";};
+20EAC375B7A14E163B5A7567 = {isa = PBXNativeTarget; buildConfigurationList = 4BE77CBF2F5C8BAE50390106; buildPhases = (8F7CAF9DB9A2A83ED421DD17, 008519A4CB2175CD4912AF28, 708FCCD91A6152A0567CE7A3); buildRules = (); dependencies = (); name = "TennisSim-iOS"; productName = "TennisSim-iOS"; productReference = 097D4422326D7E803F13D83C; productType = "com.apple.product-type.application";};
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+4DC844ABCCFC0D132D087C1C = {isa = PBXProject; attributes = {LastUpgradeCheck = 2700;}; buildConfigurationList = 1A0ABDB1258088E584FB0BB6; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = FAD58DE7366495DB4650CFEF; productRefGroup = D6E4A9B6646C62FC48BAA6DD; projectDirPath = ""; projectRoot = ""; targets = (95A282629E77CCA13A0C5C36,20EAC375B7A14E163B5A7567);};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+2AFE9F2161BF4C3818C4B6A0 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (2591E97452A206415C13F5DD,CACEBA5F8248FBE72658500C,48FF7BFF23D60E5CCDE7F2A0,4BFD2BC2BC5AA048B78C63E4,32C3605651EA3023F861ADEA,3911DA5AA208872974410299,7B49A23CDCF2A68D5D3EBA2B,2826ABDA65FBD3F5048A713F,9885029A77C754249938FC2A,C4D4FEB183EB92600F814C7B,05BC262C767B26F8653FE5E9,E99B7132EAE8FBAA26707E06,7037779C115F134FA803D4ED,41EC8419D9576234C988C321,C12AD54EFBDF4FEFDBCBC103); runOnlyForDeploymentPostprocessing = 0;};
+708FCCD91A6152A0567CE7A3 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (15A4A4B0A2D0376C110AB657,89A86E0B25EB1C341FC77431,80516B625105E1000E00CB29,6868B9D38841AFCA7EDBA432,16AB8572DEE5968DF02A59EE,D60B10378493384AD17F6BDF,6EDA814C3D5B9831A4AFC79D,8590BCB97B90A3B471AA8C19,2807B5EDE3E92F440D093157,00AA5AA4866F585F456EF677,4CF7C7AC4CA2ED69468F59CD,64928DE17B687D640F06163F,C2D9631B71692140E32E1239,BC178B743307CA5C362ED088,4E8DF5B7CBA3AE5838373F44); runOnlyForDeploymentPostprocessing = 0;};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+0E1B44785AD9ABF84773B747 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (EFBE013C94E7ABE4ED870B46,1B56920DC82A7CA51CB1A084,C149465583591E663ECDCE8E,DDFE1AB4B968024F776F6A98,78EFF45B254D6460EB447E99,C220580327BA0B3F2AB36412,7FE0A0616AE32CBAAC8581B7,39BAA5B950B08EAE4FC8798D,F3D89ECEC36DE7BB78D7CD3E,157AD7D3C399031E25F48859,02DE91A1BCC5C77375F041F0,4DED3C821482F56DCC090304,9B06EBC562F1F3160739EE46,9BAF6FB53140E742669AB246,3D27C34E8CC351DEE88562DA,95E5E9FBAAEC1279207CF278,5EAA212BC2C87FD80D1A85F9,16E35519A81DB6FA7A4EA5EB,5BFD133D03C3CFC3C403994D,FD890189974A3A073949B7F2,EAB924B3A5558EE59C2D5B97,3ACB5CDA41B9B5022C91D46D,C3A79A70A58E0CF99720A656,3B0564A6E18C135ED56CDD83,EF44C5FAC695EAF076B80FB3,9B0DFF95615BE522AA64C8AD); runOnlyForDeploymentPostprocessing = 0;};
+8F7CAF9DB9A2A83ED421DD17 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (5F177C6A081384361A5DA14F,1E86E0E7727DE93D295DEA23,E5E24E98D1705B172EA62847,116FF3F4132A61E3B9BB63EF,655763D9917F6DF151817A8C,74832E343A527ED4AF10005C,EBF7441962A07111479921BF,F07FCCFB3432935AED237F84,5E3B61757F400324DCBDB97A,DFFBCFFB9B368A945B5EB956,17BE1D3015BBD14B503A1DC8,EA4EC7175D30B53AED7C1FDE,4FC1BBFB0A33B73B0DCCD1EA,2D9D317276FC22EC726B053E,08EA897516F1447B15681B7A,EB256EE09364687E2FAAECA2,BCAB8C00C862E549E0CC9A1E,FDAB543708B5B52F1D788E57,68D0F27CA1E67F5264FC9C66,FF0C9E96D6B0509C93BBA7EC,9E19BFE9404261F039476791,0384647C96E6CB8CE748110E,456C6AD076B50E0A9AA7E341,FFB9B20851484D08DF69CBF7); runOnlyForDeploymentPostprocessing = 0;};
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+BDBC475092EF64D21C5DE60B = {isa = XCBuildConfiguration; buildSettings = {SWIFT_OBJC_BRIDGING_HEADER = "TennisSim/TennisSim-Bridging-Header.h"; HEADER_SEARCH_PATHS = "$(SRCROOT)/TennisSim"; CLANG_CXX_LANGUAGE_STANDARD = "c++20"; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; ONLY_ACTIVE_ARCH = NO; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; MTL_ENABLE_DEBUG_INFO = YES;}; name = Debug;};
+80D34FDBFC214A62DA2B7427 = {isa = XCBuildConfiguration; buildSettings = {SWIFT_OBJC_BRIDGING_HEADER = "TennisSim/TennisSim-Bridging-Header.h"; HEADER_SEARCH_PATHS = "$(SRCROOT)/TennisSim"; CLANG_CXX_LANGUAGE_STANDARD = "c++20"; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; ONLY_ACTIVE_ARCH = NO; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_COMPILATION_MODE = wholemodule;}; name = Release;};
+E0AF30017ECDE4E59EE1AAC1 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = TennisSim; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 0.1; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 26.0; INFOPLIST_KEY_NSPrincipalClass = NSApplication; PRODUCT_BUNDLE_IDENTIFIER = com.utsav.TennisSim; CODE_SIGN_IDENTITY = "-"; ENABLE_HARDENED_RUNTIME = NO; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports-games";}; name = Debug;};
+E3BFA55DCC2F944FCAEAE17F = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = TennisSim; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 0.1; SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 26.0; INFOPLIST_KEY_NSPrincipalClass = NSApplication; PRODUCT_BUNDLE_IDENTIFIER = com.utsav.TennisSim; CODE_SIGN_IDENTITY = "-"; ENABLE_HARDENED_RUNTIME = NO; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports-games";}; name = Release;};
+E75980886556A8CC611B8F5C = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = TennisSim; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 0.1; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; IPHONEOS_DEPLOYMENT_TARGET = 26.0; TARGETED_DEVICE_FAMILY = "1,2"; PRODUCT_BUNDLE_IDENTIFIER = com.utsav.TennisSim.ios; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; "OTHER_LDFLAGS[sdk=iphoneos*]" = "-framework MetalFX"; INFOPLIST_KEY_UIRequiresFullScreen = YES; INFOPLIST_KEY_UIStatusBarHidden = YES; CODE_SIGN_STYLE = Automatic;}; name = Debug;};
+D4ECB945383B4EE65AFBCF1F = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = TennisSim; CURRENT_PROJECT_VERSION = 1; MARKETING_VERSION = 0.1; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; IPHONEOS_DEPLOYMENT_TARGET = 26.0; TARGETED_DEVICE_FAMILY = "1,2"; PRODUCT_BUNDLE_IDENTIFIER = com.utsav.TennisSim.ios; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"; "OTHER_LDFLAGS[sdk=iphoneos*]" = "-framework MetalFX"; INFOPLIST_KEY_UIRequiresFullScreen = YES; INFOPLIST_KEY_UIStatusBarHidden = YES; CODE_SIGN_STYLE = Automatic;}; name = Release;};
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+1A0ABDB1258088E584FB0BB6 = {isa = XCConfigurationList; buildConfigurations = (BDBC475092EF64D21C5DE60B, 80D34FDBFC214A62DA2B7427); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+B6E8AA2D87F5966CDBAED90F = {isa = XCConfigurationList; buildConfigurations = (E0AF30017ECDE4E59EE1AAC1, E3BFA55DCC2F944FCAEAE17F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+4BE77CBF2F5C8BAE50390106 = {isa = XCConfigurationList; buildConfigurations = (E75980886556A8CC611B8F5C, D4ECB945383B4EE65AFBCF1F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release;};
+/* End XCConfigurationList section */
+};
+rootObject = 4DC844ABCCFC0D132D087C1C;
+}
