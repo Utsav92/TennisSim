@@ -150,6 +150,69 @@ final class GameViewController: UIViewController {
         }
         setOverlay(home)
         if ProcessInfo.processInfo.environment["TS_AUTOPLAY"] != nil { home.onPlay?() }       // test hook: skip the home screen
+        if ProcessInfo.processInfo.environment["TS_DEMO"] != nil { startDemo() }
+    }
+
+    // MARK: 30-second launch demo (TS_DEMO=1): bots play, scripted camera, title cards.
+
+    private func startDemo() {
+        setOverlay(nil)
+        for v in controlViews { v.isHidden = true }
+        game.botControlsPlayer = true; game.newMatch(); game.paused = false
+        renderer.showStats = false; audio.muted = true
+        CourtSurface.current = .hard
+        let t0 = CACurrentMediaTime()
+        // Opening: a slow crane move over the empty stadium that settles into the broadcast angle.
+        renderer.cameraOverride = { [weak self] _ in
+            let t = Float(CACurrentMediaTime() - t0)
+            if t > 7 { self?.renderer.cameraOverride = nil }
+            let k = simd_clamp(t / 7, 0, 1), e = k * k * (3 - 2 * k)
+            let ang = (1 - e) * 1.1
+            let radius: Float = 34 - 12.5 * e, height: Float = 5 + 4.5 * e
+            let eye = float3(sinf(ang) * radius, height, cosf(ang) * radius)
+            return (eye, float3(0, 0.8 + 0.5 * e, 1.5 * e), 0.62 - 0.0 * e)
+        }
+        let black = UIView(frame: view.bounds); black.backgroundColor = .black
+        black.autoresizingMask = [.flexibleWidth, .flexibleHeight]; view.addSubview(black)
+        let top = CAGradientLayer(); top.colors = [UIColor.black.withAlphaComponent(0.55).cgColor, UIColor.clear.cgColor]
+        top.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height * 0.5); view.layer.insertSublayer(top, below: black.layer)
+
+        func card(_ title: String, _ sub: String?, size: CGFloat = 54, at t: Double, hold: Double, bottom: Bool = true) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + t) { [weak self] in
+                guard let self else { return }
+                let l = UILabel(); l.numberOfLines = 0; l.textAlignment = .center
+                let a = NSMutableAttributedString(string: title, attributes: [.font: UIFont.systemFont(ofSize: size, weight: .semibold),
+                                                                              .foregroundColor: UIColor.white, .kern: -1.0])
+                if let sub { a.append(NSAttributedString(string: "\n" + sub, attributes: [.font: UIFont.systemFont(ofSize: size * 0.42, weight: .regular),
+                                                                                           .foregroundColor: UIColor.white.withAlphaComponent(0.8)])) }
+                l.attributedText = a
+                l.layer.shadowColor = UIColor.black.cgColor; l.layer.shadowOpacity = 0.55; l.layer.shadowRadius = 18; l.layer.shadowOffset = .zero
+                l.translatesAutoresizingMaskIntoConstraints = false; l.alpha = 0
+                l.transform = CGAffineTransform(scaleX: 0.96, y: 0.96).translatedBy(x: 0, y: 14)
+                self.view.addSubview(l)
+                NSLayoutConstraint.activate([l.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+                                             bottom ? l.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -self.view.bounds.height * 0.12)
+                                                    : l.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)])
+                UIView.animate(withDuration: 0.9, delay: 0, options: .curveEaseOut) { l.alpha = 1; l.transform = .identity }
+                UIView.animate(withDuration: 0.7, delay: hold, options: .curveEaseIn, animations: { l.alpha = 0; l.transform = CGAffineTransform(translationX: 0, y: -10) }) { _ in l.removeFromSuperview() }
+            }
+        }
+        // 0–30 s timeline
+        UIView.animate(withDuration: 1.6, delay: 0.3, options: .curveEaseInOut) { black.alpha = 0 }
+        card("TennisSim", "Center Court. In your pocket.", size: 78, at: 0.8, hold: 3.6, bottom: false)
+        card("Stadium-grade lighting.", "Soft shadows. Real depth of field.", at: 5.4, hold: 3.2)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 9.5) { [weak self] in self?.renderer.cameraMode = .follow }
+        card("Spin. Slice. Lob.", "Physics that plays like the real thing.", at: 10, hold: 3.6)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 14.2) { [weak self] in self?.renderer.cameraMode = .broadcast }
+        for (i, s) in [CourtSurface.hard, .clay, .grass].enumerated() {
+            let t = 14.5 + Double(i) * 3.2
+            DispatchQueue.main.asyncAfter(deadline: .now() + t - 0.1) { CourtSurface.current = s }
+            card(s.name, ["Fast and true.", "Slow. High bounce.", "Low. Skiddy."][i], at: t, hold: 2.3)
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 24) { [weak self] in self?.renderer.cameraMode = .follow }
+        card("Built on Metal 4.", "MetalFX upscaling. Silky 120 fps.", at: 24.4, hold: 2.6)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 27.2) { UIView.animate(withDuration: 1.2) { black.alpha = 1 } }
+        card("TennisSim", "Coming soon to iPhone.", size: 78, at: 28.0, hold: 5, bottom: false)
     }
 
     private func showPause() {

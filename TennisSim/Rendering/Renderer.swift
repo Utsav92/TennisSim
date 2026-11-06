@@ -59,6 +59,8 @@ final class Renderer: NSObject, MTKViewDelegate {
     var onAnnouncement: ((String) -> Void)?      // umpire calls
     var onCrowdLevel: ((Float) -> Void)?
     var cameraMode: CameraMode = .broadcast
+    /// Scripted camera (demo mode): returns eye / target / vertical fov for the current time.
+    var cameraOverride: ((Float) -> (eye: float3, target: float3, fov: Float))?
     var showStats = true
     /// Fraction of the display resolution the scene is rendered at before MetalFX upscales it (Metal 4 path only).
     var renderScale: Float = 0.75
@@ -168,6 +170,7 @@ final class Renderer: NSObject, MTKViewDelegate {
         onCrowdLevel?(game.crowdExcitement)
         let serveCam = (game.phase == .serveReady || game.phase == .tossed) && game.server > 0
         camera.update(mode: cameraMode, player: game.player, ball: game.ball, dt: dt, serveCam: serveCam)
+        if let o = cameraOverride { let c = o(Float(CACurrentMediaTime() - startTime)); camera.eye = c.eye; camera.target = c.target; camera.fov = c.fov }
         camera.setShake(game.shake, time: Float(CACurrentMediaTime() - startTime))
         let gpuUpdate: (Double) -> Void = { [weak self] g in
             if g > 0 { self?.gpuMs = (self?.gpuMs ?? g) * 0.95 + g * 0.05 }
